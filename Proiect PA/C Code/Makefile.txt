@@ -1,0 +1,22 @@
+# Numele compilatorului
+CC = gcc
+
+# Opțiuni de compilare
+CFLAGS = -Wall -Wextra -std=c99
+
+# Numele fișierelor sursă și al fișierului executabil
+SRCS = knapsack.c main.c
+OBJS = $(SRCS:.c=.o)
+EXEC = bin/app
+
+# Regula implicită pentru construirea executabilului
+$(EXEC): $(OBJS)
+    $(CC) $(CFLAGS) -o $@ $(OBJS)
+
+# Regula pentru compilarea fișierelor sursă
+%.o: %.c
+    $(CC) $(CFLAGS) -c $< -o $@
+
+# Regula pentru curățarea fișierelor intermediare și a executabilului
+clean:
+    rm -f $(OBJS) $(EXEC)

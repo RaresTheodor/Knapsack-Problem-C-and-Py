@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1716276528 source:c:\users\rares\desktop\proiect pa\homework\main.c
+	<stdio.h>
+	<stdlib.h>
+	"knapsack.h"
+
+1716276528 c:\users\rares\desktop\proiect pa\homework\knapsack.h
+
+1716276528 source:c:\users\rares\desktop\proiect pa\homework\knapsack.c
+	<sys/types.h>
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	"knapsack.h"
+
+1716447733 source:c:\users\rares\desktop\diverse facultate\proiect pa\homework\src\knapsack.c
+	<sys/types.h>
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	"knapsack.h"
+
+1716277383 c:\users\rares\desktop\diverse facultate\proiect pa\homework\src\knapsack.h
+
+1716277383 source:c:\users\rares\desktop\diverse facultate\proiect pa\homework\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	"knapsack.h"
+
